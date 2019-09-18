@@ -217,6 +217,11 @@ body {
   padding: 0;
 }
 
+.header__logo:hover, .header__logo:focus {
+  color: #101010;
+  text-decoration: none;
+}
+
 .header__navigation {
   padding: 0;
 }

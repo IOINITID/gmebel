@@ -205,6 +205,12 @@ body {
   font-size: 30px;
   font-weight: 700;
   padding: 0;
+
+  &:hover,
+  &:focus {
+    color: #101010;
+    text-decoration: none;
+  }
 }
 
 .header__navigation {
