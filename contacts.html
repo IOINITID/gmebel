@@ -15,251 +15,362 @@
 
 <body>
 
-  <header class="container header">
+  <div id="menu" class="mobileMenu">
+    <div class="closeBlock">
+      <button id="mMenuClose">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+          x="0px" y="0px" viewBox="0 0 224.512 224.512" style="enable-background:new 0 0 224.512 224.512;"
+          xml:space="preserve" width="20px" height="20px">
+          <g>
+            <polygon
+              points="224.507,6.997 217.521,0 112.256,105.258 6.998,0 0.005,6.997 105.263,112.254    0.005,217.512 6.998,224.512 112.256,119.24 217.521,224.512 224.507,217.512 119.249,112.254  "
+              fill="#FFFFFF" />
+          </g>
+        </svg>
+      </button>
+    </div>
+    <ul class="menu-list-mobile">
+      <li>
+        <a href="catalog.html">Каталог</a>
+      </li>
+      <li>
+        <a href="for-designers.html">Дизайнерам</a>
+      </li>
+      <li>
+        <a href="for-dealers.html">Дилерам</a>
+      </li>
+      <li>
+        <a href="about-us.html">О нас</a>
+      </li>
+      <li>
+        <a href="contacts.html">Контакты</a>
+      </li>
+    </ul>
+  </div>
 
-    <a class="col-xl-2 header__logo" href="index.html">g_mebel</a>
+  <div id="panel" class="panel page ">
 
-    <nav class="col-xl-6 offset-xl-4 header__navigation">
-      <ul class="header__list">
-        <li class="header__item">
-          <a class="header__link" href="#">Каталог</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="for-designers.html">Дизайнерам</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="for-dealers.html">Дилерам</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link" href="about-us.html">О нас</a>
-        </li>
-        <li class="header__item">
-          <a class="header__link  header__link--active" href="#">Контакты</a>
-        </li>
-      </ul>
-    </nav>
+    <header class="container header">
 
-  </header>
+      <a class="col-sm-12 col-xl-2 header__logo" href="index.html">g_mebel</a>
 
-  <main class="main">
+      <a href="#" class="header__menu-button btn_mobile"><img src="img/menu-button.svg" alt="Иконка меню"></a>
 
-    <h1 class="visually-hidden">Наши контакты</h1>
+      <nav class="col-sm-12 col-xl-6 offset-xl-4 header__navigation">
+        <ul class="header__list">
+          <li class="header__item">
+            <button class="header__link header__button-link header__link-icon">Каталог</button>
+            <div class="popup">
+              <ul>
+                <li>
+                  <a href="#">Обеденные стулья</a>
+                </li>
+                <li>
+                  <a href="catalog.html">Барные стулья</a>
+                </li>
+                <li>
+                  <a href="#">Стулья с механизмом</a>
+                </li>
+                <li>
+                  <a href="#">Стулья арлекино</a>
+                </li>
+                <li>
+                  <a href="#">Полукресла</a>
+                </li>
+                <li>
+                  <a href="#">Кресла</a>
+                </li>
+                <li>
+                  <a href="#">Банкетки</a>
+                </li>
+                <li>
+                  <a href="#">Пуфы</a>
+                </li>
+                <li>
+                  <a href="#">Диваны</a>
+                </li>
+                <li>
+                  <a href="#">Кровати</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="for-designers.html">Дизайнерам</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="for-dealers.html">Дилерам</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="about-us.html">О нас</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
 
-    <section class="contacts">
+    </header>
 
-      <iframe
-        src="https://yandex.ru/map-widget/v1/?um=constructor%3Aeb12c3dc0ae710cc10889a2c7aba22742a40db64077c42c04fcd7a15a8c50a2d&amp;source=constructor"
-        width="500" height="400"></iframe>
+    <main class="main">
 
-      <h2 class="visually-hidden">Контакты</h2>
+      <h1 class="visually-hidden">Наши контакты</h1>
 
+      <section class="contacts">
 
-      <div class="info">
+        <iframe class="map-iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.3381728744866!2d41.97794031559893!3d45.038358979098135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f9008d13450efd%3A0x1fda77cec4de1a49!2z0YPQuy4g0JzQuNGA0LAsIDIzNCwgMSwg0KHRgtCw0LLRgNC-0L_QvtC70YwsINCh0YLQsNCy0YDQvtC_0L7Qu9GM0YHQutC40Lkg0LrRgNCw0LksIDM1NTAwNA!5e0!3m2!1sru!2sru!4v1568623168387!5m2!1sru!2sru"
+          width="600" height="450"></iframe>
 
-        <div class="container info__contacts">
+        <h2 class="visually-hidden">Контакты</h2>
 
-          <div class="breadcrumbs">
-            <ul>
-              <li>
-                <a href="#">Главная</a>
-              </li>
-              <li>
-                <a href="#">Каталог</a>
-              </li>
-              <li>
-                Диваны
-              </li>
-            </ul>
-          </div>
+        <div class="info">
 
-          <address class="info__address">
+          <div class="container info__contacts">
 
-            <div class="info__number">
-              <p>г. Ставрополь, ул. Мира 234/1, оф. 1</p>
-              <a href="tel:+79283842385">+7 (928) 384 23 85</a>
+            <div class="breadcrumbs">
+              <ul>
+                <li>
+                  <a href="#">Главная</a>
+                </li>
+                <li>
+                  <a href="#">Каталог</a>
+                </li>
+                <li>
+                  Диваны
+                </li>
+              </ul>
             </div>
 
+          </div>
 
-            <ul class="info__mail">
-              <li><a href="mailto:g_mebel@mail.ru">g_mebel@mail.ru</a></li>
-              <li><a class="info__mail-two" href="mailto:@g_mebel">@g_mebel</a></li>
+        </div>
+
+        <!-- <div class="container-fluid"> -->
+
+        <div class="info-bottom">
+          <div class="container">
+            <address class="info__address">
+
+              <div class="info__number">
+                <p>г. Ставрополь, ул. Мира 234/1, оф. 1</p>
+                <a href="tel:+79283842385">+7 (928) 384 23 85</a>
+              </div>
+
+
+              <ul class="info__mail">
+                <li><a href="mailto:g_mebel@mail.ru">g_mebel@mail.ru</a></li>
+                <li><a class="info__mail-two" href="mailto:@g_mebel">@g_mebel</a></li>
+              </ul>
+
+            </address>
+          </div>
+        </div>
+
+        <!-- </div> -->
+
+      </section>
+
+    </main>
+
+    <footer class="container-fluid footer">
+
+      <section class="container">
+
+        <h2 class="visually-hidden">Навигация по сайту</h2>
+
+        <div class="row">
+
+          <div class="col-xl-6 footer__navigation">
+
+            <ul class="footer__list">
+              <li>
+                <a class="footer__link footer__link--title" href="#">Каталог</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Обеденные стулья</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Барные стулья</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Стулья с механизмом</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Стулья арлекино</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Полукресла</a>
+              </li>
             </ul>
 
+            <ul class="footer__list">
+              <li>
+                <a class="footer__link" href="#">Кресла</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Банкетки</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Пуфы</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Диваны</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Кровати</a>
+              </li>
+            </ul>
 
-          </address>
+            <ul class="footer__list">
+              <li>
+                <a class="footer__link footer__link--title" href="#">О нас</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Вакансии</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Отзывы</a>
+              </li>
+              <li>
+                <a class="footer__link" href="#">Производство</a>
+              </li>
+            </ul>
 
+            <ul class="footer__list">
+              <li>
+                <a class="footer__link footer__link--title" href="#">Дизайнерам</a>
+              </li>
+              <li>
+                <a class="footer__link footer__link--title" href="#">Дилерам</a>
+              </li>
+              <li>
+                <a class="footer__link footer__link--title" href="#">Контакты</a>
+              </li>
+            </ul>
 
-        </div>
+          </div>
 
-      </div>
+          <div class="col-xl-6 footer__social">
 
+            <ul class="footer__social-links">
 
-    </section>
-
-  </main>
-
-  <footer class="container-fluid footer">
-
-    <section class="container">
-
-      <h2 class="visually-hidden">Навигация по сайту</h2>
-
-      <div class="row">
-
-        <div class="col-xl-6 footer__navigation">
-
-          <ul class="footer__list">
-            <li>
-              <a class="footer__link footer__link--title" href="#">Каталог</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Обеденные стулья</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Барные стулья</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Стулья с механизмом</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Стулья арлекино</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Полукресла</a>
-            </li>
-          </ul>
-
-          <ul class="footer__list">
-            <li>
-              <a class="footer__link" href="#">Кресла</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Банкетки</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Пуфы</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Диваны</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Кровати</a>
-            </li>
-          </ul>
-
-          <ul class="footer__list">
-            <li>
-              <a class="footer__link footer__link--title" href="#">О нас</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Вакансии</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Отзывы</a>
-            </li>
-            <li>
-              <a class="footer__link" href="#">Производство</a>
-            </li>
-          </ul>
-
-          <ul class="footer__list">
-            <li>
-              <a class="footer__link footer__link--title" href="#">Дизайнерам</a>
-            </li>
-            <li>
-              <a class="footer__link footer__link--title" href="#">Дилерам</a>
-            </li>
-            <li>
-              <a class="footer__link footer__link--title" href="#">Контакты</a>
-            </li>
-          </ul>
-
-        </div>
-
-        <div class="col-xl-6 footer__social">
-
-          <ul class="footer__social-links">
-
-            <li>
-              <a class="footer__social-link" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
-                  image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
-                  text-rendering="geometricPrecision" viewBox="0 0 2530 2530" width="44">
-                  <path fill="#2b2a29" fill-rule="nonzero"
-                    d="M1265 2530C566 2530 0 1964 0 1265S566 0 1265 0s1265 566 1265 1265-566 1265-1265 1265z" />
-                  <path fill="#fefefe"
-                    d="M2081 1645c-2-5-4-8-5-11-29-52-84-115-164-190l-2-2-1-1h-2c-36-35-59-59-69-71-18-23-22-46-12-69 7-18 32-56 77-113 24-30 42-55 56-73 99-132 142-216 129-252l-5-9c-4-5-13-10-27-14-14-5-33-5-55-2l-247 1c-4-1-10-1-18 1-7 1-11 2-11 2l-4 2-3 3c-3 2-6 5-10 9-3 4-6 9-8 15-27 69-58 134-92 193-22 36-41 67-59 93s-32 45-44 57c-12 13-23 22-33 30-10 7-17 11-22 9-6-1-10-2-15-3-8-5-14-12-19-21s-9-20-10-34c-2-13-3-25-3-34v-42c1-17 1-29 1-36 0-21 0-45 1-71 1-25 2-45 2-60 1-15 1-31 1-47 0-17-1-30-3-39-2-10-5-19-9-28s-10-16-17-21c-8-4-18-8-29-11-30-7-69-11-116-11-107-1-175 5-205 20-12 7-23 15-33 26-10 13-12 20-4 21 34 5 58 17 73 37l5 10c4 7 8 21 12 39 4 19 7 40 8 63 3 42 3 78 0 107-3 30-6 53-8 70-3 17-7 30-12 40-5 11-9 17-10 19-2 3-4 4-5 5-7 2-15 4-23 4s-18-4-29-12c-12-8-23-19-36-33-12-14-26-34-41-59-16-25-32-55-48-89l-14-25c-9-16-21-40-35-70-15-31-29-61-40-89-5-12-11-21-21-28l-4-2c-3-3-7-5-14-8-6-2-12-4-19-5l-236 2c-24 0-40 5-49 16l-3 5c-2 3-3 7-3 14 0 6 2 14 5 23 35 81 72 159 113 234 40 75 75 135 105 181s60 89 91 130c31 40 51 66 61 78 10 11 18 20 24 26l21 20c14 14 34 30 61 50 27 19 56 38 88 56 33 19 70 34 113 46 43 11 85 16 126 14h99c20-2 35-8 45-19l3-4c3-4 5-9 7-16s3-15 3-24c-1-24 1-47 5-66 5-20 10-35 15-45 6-10 12-18 19-25 6-7 11-11 14-13 3-1 5-2 7-3 14-4 30 0 49 14 18 13 36 30 52 49 16 20 36 42 59 67s43 43 60 55l17 10c12 7 26 13 45 19 18 6 34 7 48 4l220-3c22 0 38-4 50-11s20-15 22-23c2-9 2-19 0-30-2-10-4-18-6-22z" />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a class="footer__social-link" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
-                  image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
-                  text-rendering="geometricPrecision" viewBox="0 0 2530 2530" width="44">
-                  <defs />
-                  <g>
-                    <g>
-                      <path d="M1265 2530C566 2530 0 1964 0 1265S566 0 1265 0s1265 566 1265 1265-566 1265-1265 1265z"
-                        class="fil0" fill="#2b2a29" />
-                      <path fill="#fefefe" fill-rule="nonzero"
-                        d="M1975 907c-17-64-67-115-131-132-116-31-579-31-579-31s-463 0-578 31c-64 17-114 68-131 132-31 116-31 358-31 358s0 243 31 359c17 64 67 115 131 132 115 31 578 31 578 31s463 0 579-31c64-17 114-68 131-132 31-116 31-359 31-359s0-242-31-358z" />
-                      <path d="M1114 1485v-440l387 220z" class="fil0" />
-                    </g>
-                  </g>
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a class="footer__social-link" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
-                  image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
-                  text-rendering="geometricPrecision" viewBox="0 0 2530 2530" width="44">
-                  <g fill-rule="nonzero">
-                    <path fill="#2b2a29"
+              <li>
+                <a class="footer__social-link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+                    image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
+                    text-rendering="geometricPrecision" viewBox="0 0 2530 2530" width="44">
+                    <path fill="#2b2a29" fill-rule="nonzero"
                       d="M1265 2530C566 2530 0 1964 0 1265S566 0 1265 0s1265 566 1265 1265-566 1265-1265 1265z" />
                     <path fill="#fefefe"
-                      d="M1072 2030h308v-771h215l23-259h-238V853c0-60 13-85 71-85h167V500h-213c-229 0-333 101-333 295v205H912v262h160v768z" />
-                  </g>
-                </svg>
-              </a>
-            </li>
+                      d="M2081 1645c-2-5-4-8-5-11-29-52-84-115-164-190l-2-2-1-1h-2c-36-35-59-59-69-71-18-23-22-46-12-69 7-18 32-56 77-113 24-30 42-55 56-73 99-132 142-216 129-252l-5-9c-4-5-13-10-27-14-14-5-33-5-55-2l-247 1c-4-1-10-1-18 1-7 1-11 2-11 2l-4 2-3 3c-3 2-6 5-10 9-3 4-6 9-8 15-27 69-58 134-92 193-22 36-41 67-59 93s-32 45-44 57c-12 13-23 22-33 30-10 7-17 11-22 9-6-1-10-2-15-3-8-5-14-12-19-21s-9-20-10-34c-2-13-3-25-3-34v-42c1-17 1-29 1-36 0-21 0-45 1-71 1-25 2-45 2-60 1-15 1-31 1-47 0-17-1-30-3-39-2-10-5-19-9-28s-10-16-17-21c-8-4-18-8-29-11-30-7-69-11-116-11-107-1-175 5-205 20-12 7-23 15-33 26-10 13-12 20-4 21 34 5 58 17 73 37l5 10c4 7 8 21 12 39 4 19 7 40 8 63 3 42 3 78 0 107-3 30-6 53-8 70-3 17-7 30-12 40-5 11-9 17-10 19-2 3-4 4-5 5-7 2-15 4-23 4s-18-4-29-12c-12-8-23-19-36-33-12-14-26-34-41-59-16-25-32-55-48-89l-14-25c-9-16-21-40-35-70-15-31-29-61-40-89-5-12-11-21-21-28l-4-2c-3-3-7-5-14-8-6-2-12-4-19-5l-236 2c-24 0-40 5-49 16l-3 5c-2 3-3 7-3 14 0 6 2 14 5 23 35 81 72 159 113 234 40 75 75 135 105 181s60 89 91 130c31 40 51 66 61 78 10 11 18 20 24 26l21 20c14 14 34 30 61 50 27 19 56 38 88 56 33 19 70 34 113 46 43 11 85 16 126 14h99c20-2 35-8 45-19l3-4c3-4 5-9 7-16s3-15 3-24c-1-24 1-47 5-66 5-20 10-35 15-45 6-10 12-18 19-25 6-7 11-11 14-13 3-1 5-2 7-3 14-4 30 0 49 14 18 13 36 30 52 49 16 20 36 42 59 67s43 43 60 55l17 10c12 7 26 13 45 19 18 6 34 7 48 4l220-3c22 0 38-4 50-11s20-15 22-23c2-9 2-19 0-30-2-10-4-18-6-22z" />
+                  </svg>
+                </a>
+              </li>
 
-            <li>
-              <a class="footer__social-link" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
-                  image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
-                  text-rendering="geometricPrecision" viewBox="0 0 2530 2530" width="44">
-                  <defs />
-                  <g>
+              <li>
+                <a class="footer__social-link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+                    image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
+                    text-rendering="geometricPrecision" viewBox="0 0 2530 2530" width="44">
+                    <defs />
                     <g>
+                      <g>
+                        <path d="M1265 2530C566 2530 0 1964 0 1265S566 0 1265 0s1265 566 1265 1265-566 1265-1265 1265z"
+                          class="fil0" fill="#2b2a29" />
+                        <path fill="#fefefe" fill-rule="nonzero"
+                          d="M1975 907c-17-64-67-115-131-132-116-31-579-31-579-31s-463 0-578 31c-64 17-114 68-131 132-31 116-31 358-31 358s0 243 31 359c17 64 67 115 131 132 115 31 578 31 578 31s463 0 579-31c64-17 114-68 131-132 31-116 31-359 31-359s0-242-31-358z" />
+                        <path d="M1114 1485v-440l387 220z" class="fil0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a class="footer__social-link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+                    image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
+                    text-rendering="geometricPrecision" viewBox="0 0 2530 2530" width="44">
+                    <g fill-rule="nonzero">
                       <path fill="#2b2a29"
                         d="M1265 2530C566 2530 0 1964 0 1265S566 0 1265 0s1265 566 1265 1265-566 1265-1265 1265z" />
-                      <path
-                        d="M1265 571c-188 0-212 1-286 5-74 3-124 15-168 32-46 18-85 41-123 80-39 38-62 77-80 123-17 44-29 94-32 168-4 74-5 98-5 286 0 189 1 212 5 286 3 74 15 124 32 169 18 45 41 84 80 122 38 39 77 63 123 80 44 18 94 29 168 33 74 3 98 4 286 4 189 0 212-1 286-4 74-4 124-15 169-33 45-17 84-41 122-80 39-38 63-77 80-122 18-45 29-95 33-169 3-74 4-97 4-286 0-188-1-212-4-286-4-74-15-124-33-168-17-46-41-85-80-123-38-39-77-62-122-80-45-17-95-29-169-32-74-4-97-5-286-5zm0 125c185 0 207 1 281 5 67 3 104 14 128 23 33 13 56 28 80 52 24 25 39 48 52 80 9 25 21 61 24 129 3 73 4 95 4 280s-1 207-4 280c-3 68-15 105-24 129-13 33-28 56-52 80s-47 39-80 52c-24 9-61 21-128 24-74 3-96 4-281 4s-207-1-280-4c-68-3-104-15-129-24-32-13-55-28-80-52-24-24-39-47-52-80-9-24-20-61-23-129-4-73-4-95-4-280s0-207 4-280c3-68 14-104 23-129 13-32 28-55 52-80 25-24 48-39 80-52 25-9 61-20 129-23 73-4 95-5 280-5z"
-                        class="fil1" fill="#fefefe" />
-                      <path
-                        d="M1265 1496c-128 0-231-103-231-231s103-231 231-231 231 103 231 231-103 231-231 231zm0-587c-197 0-356 159-356 356s159 356 356 356 356-159 356-356-159-356-356-356zM1719 895c0 46-38 83-84 83s-83-37-83-83 37-83 83-83 84 37 84 83z"
-                        class="fil1" fill="#fefefe" />
+                      <path fill="#fefefe"
+                        d="M1072 2030h308v-771h215l23-259h-238V853c0-60 13-85 71-85h167V500h-213c-229 0-333 101-333 295v205H912v262h160v768z" />
                     </g>
-                  </g>
-                </svg>
-              </a>
-            </li>
+                  </svg>
+                </a>
+              </li>
 
-          </ul>
+              <li>
+                <a class="footer__social-link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+                    image-rendering="optimizeQuality" shape-rendering="geometricPrecision"
+                    text-rendering="geometricPrecision" viewBox="0 0 2530 2530" width="44">
+                    <defs />
+                    <g>
+                      <g>
+                        <path fill="#2b2a29"
+                          d="M1265 2530C566 2530 0 1964 0 1265S566 0 1265 0s1265 566 1265 1265-566 1265-1265 1265z" />
+                        <path
+                          d="M1265 571c-188 0-212 1-286 5-74 3-124 15-168 32-46 18-85 41-123 80-39 38-62 77-80 123-17 44-29 94-32 168-4 74-5 98-5 286 0 189 1 212 5 286 3 74 15 124 32 169 18 45 41 84 80 122 38 39 77 63 123 80 44 18 94 29 168 33 74 3 98 4 286 4 189 0 212-1 286-4 74-4 124-15 169-33 45-17 84-41 122-80 39-38 63-77 80-122 18-45 29-95 33-169 3-74 4-97 4-286 0-188-1-212-4-286-4-74-15-124-33-168-17-46-41-85-80-123-38-39-77-62-122-80-45-17-95-29-169-32-74-4-97-5-286-5zm0 125c185 0 207 1 281 5 67 3 104 14 128 23 33 13 56 28 80 52 24 25 39 48 52 80 9 25 21 61 24 129 3 73 4 95 4 280s-1 207-4 280c-3 68-15 105-24 129-13 33-28 56-52 80s-47 39-80 52c-24 9-61 21-128 24-74 3-96 4-281 4s-207-1-280-4c-68-3-104-15-129-24-32-13-55-28-80-52-24-24-39-47-52-80-9-24-20-61-23-129-4-73-4-95-4-280s0-207 4-280c3-68 14-104 23-129 13-32 28-55 52-80 25-24 48-39 80-52 25-9 61-20 129-23 73-4 95-5 280-5z"
+                          class="fil1" fill="#fefefe" />
+                        <path
+                          d="M1265 1496c-128 0-231-103-231-231s103-231 231-231 231 103 231 231-103 231-231 231zm0-587c-197 0-356 159-356 356s159 356 356 356 356-159 356-356-159-356-356-356zM1719 895c0 46-38 83-84 83s-83-37-83-83 37-83 83-83 84 37 84 83z"
+                          class="fil1" fill="#fefefe" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
 
         </div>
 
+        <p class="footer__copyright-text">Copyright © 2013-2019 Freepik Company S.L. All rights reserved.</p>
+
+      </section>
+
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <h2>Хочу узнать стоимость</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+          <div class="modal-body data">
+            <form id="form-contac-4" class="form-element" autocomplete="off" method="POST">
+              <label for="name">
+                <input id="name" name="name" type="text" placeholder="Введите своё имя">
+              </label>
+              <label for="phone">
+                <input id="phone" name="phone" type="number" placeholder="Введите ваш телефон">
+              </label>
+              <button class="bayvz form-input__button" type="submit">Оставить заявку</button>
+            </form>
+          </div>
+          <!-- <div class="modal-body success">
+            <form id="form-contac-4" class="form-element" autocomplete="off" method="POST">
+              <p>Спасибо, ваша заявка принята.</p>
+              <button class="close ok-pressed" data-dismiss="modal" aria-label="Close" value="">Ок</button>
+            </form>
+          </div>
+          <div class="modal-body failed">
+            <form id="form-contac-4" class="form-element" autocomplete="off" method="POST">
+              <p>Произошла ошибка, попробуйте еще раз.</p>
+              <button class="close ok-pressed" data-dismiss="modal" aria-label="Close" value="">Ок</button>
+            </form>
+          </div> -->
+        </div>
       </div>
+    </div>
 
-      <p class="footer__copyright-text">Copyright © 2013-2019 Freepik Company S.L. All rights reserved.</p>
-
-    </section>
-
-  </footer>
+  </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
