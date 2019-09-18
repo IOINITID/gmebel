@@ -315,6 +315,14 @@ body {
   border: 1px solid #101010;
   padding: 15px 41px;
   display: inline-block;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: #101010;
+    text-decoration: none;
+    transition: 0.2s ease-in;
+  }
 }
 
 .devider {
@@ -380,7 +388,10 @@ body {
 
   &:hover,
   &:focus {
-    color: #101010;
+    color: #ffffff;
+    background-color: #101010;
+    text-decoration: none;
+    transition: 0.25s ease-in;
   }
 }
 
@@ -564,6 +575,7 @@ body {
     font-weight: 700;
     display: inline-flex;
     align-items: center;
+    text-decoration: none;
 
     &::before {
       content: "";
@@ -594,6 +606,7 @@ body {
       font-weight: 400;
       display: inline-flex;
       align-items: center;
+      text-decoration: none;
 
       &::before {
         content: "";
@@ -678,7 +691,10 @@ body {
 
   &:hover,
   &:focus {
-    color: #101010;
+    color: #ffffff;
+    background-color: #101010;
+    text-decoration: none;
+    transition: 0.25s ease-in;
   }
 }
 
@@ -759,7 +775,10 @@ body {
 
   &:hover,
   &:focus {
-    color: #101010;
+    color: #ffffff;
+    background-color: #101010;
+    text-decoration: none;
+    transition: 0.25s ease-in;
   }
 }
 
@@ -888,7 +907,10 @@ body {
 
   &:hover,
   &:focus {
-    color: #101010;
+    color: #ffffff;
+    background-color: #101010;
+    text-decoration: none;
+    transition: 0.25s ease-in;
   }
 }
 

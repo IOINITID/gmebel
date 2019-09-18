@@ -344,6 +344,14 @@ body {
   display: inline-block;
 }
 
+.real-mebel__link:hover, .real-mebel__link:focus {
+  color: #ffffff;
+  background-color: #101010;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
 .devider {
   display: block;
   height: 1px;
@@ -407,7 +415,11 @@ body {
 }
 
 .item__link:hover, .item__link:focus {
-  color: #101010;
+  color: #ffffff;
+  background-color: #101010;
+  text-decoration: none;
+  -webkit-transition: 0.25s ease-in;
+  transition: 0.25s ease-in;
 }
 
 .footer {
@@ -619,6 +631,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
 }
 
 .info__number a::before {
@@ -654,6 +667,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
 }
 
 .info__mail li a::before {
@@ -741,7 +755,11 @@ body {
 }
 
 .for-designers-info__link:hover, .for-designers-info__link:focus {
-  color: #101010;
+  color: #ffffff;
+  background-color: #101010;
+  text-decoration: none;
+  -webkit-transition: 0.25s ease-in;
+  transition: 0.25s ease-in;
 }
 
 .for-dealers {
@@ -836,7 +854,11 @@ body {
 }
 
 .for-dealers-info__link:hover, .for-dealers-info__link:focus {
-  color: #101010;
+  color: #ffffff;
+  background-color: #101010;
+  text-decoration: none;
+  -webkit-transition: 0.25s ease-in;
+  transition: 0.25s ease-in;
 }
 
 .about-us {
@@ -964,7 +986,11 @@ body {
 }
 
 .item-info__link:hover, .item-info__link:focus {
-  color: #101010;
+  color: #ffffff;
+  background-color: #101010;
+  text-decoration: none;
+  -webkit-transition: 0.25s ease-in;
+  transition: 0.25s ease-in;
 }
 
 .item-info__image-slider {
